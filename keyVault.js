@@ -3,7 +3,7 @@ const { DefaultAzureCredential } = require('@azure/identity');
 require('dotenv').config();
 
 // Azure Key Vault Configuration
-const vaultName = 'mylw3keyvault'; // Replace with your Key Vault name
+const vaultName = 'mykeyvault'; // Replace with your Key Vault name
 const url = `https://${vaultName}.vault.azure.net`;
 
 // Create SecretClient with DefaultAzureCredential
